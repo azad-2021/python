@@ -1,0 +1,8 @@
+we split our data into three parts
+1.Train		2.Test		3.Validation
+
+##Train data set is a sample of data which model learns
+
+##The validation datset is a sample of data held back from training model that is used to give an estimate of model skill while tuning model's hyperparameters.
+
+##The test dataset is the dataset on which the model makes the prediction after learning on training data.

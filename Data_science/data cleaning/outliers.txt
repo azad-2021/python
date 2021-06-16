@@ -1,0 +1,27 @@
+Outliers are extreme values that fall a long way outside of other observations.
+Outliers are those values which are very different from most of the values. 
+ie. There is column called "Age" for B.tech collge where students generally have age around 17 to 24
+But if there is student having age of 50 then that will be consider as outliers
+
+##Bad for Building Predictive Models
+
+Because these outliers can induce the state of confusion in the predictive models, which in turn make the model very weak for making decision rules.
+Then there is high chances that model will not perform good.
+
+##Reasons for having outliers
+-Data entry errors
+-Measurement errors
+-Experimental errors
+-Natural errors
+
+In process of producing, collecting, processing and analyzing data, outliers can come from many sources and hide in any dimension.
+
+##Conclusion
+Removal or treatement of outliers from the data of building a predictive model is very important as many machine learning algorithms are very sensitive to the range of distribution of attribute values in the input data.
+
+Outliers in input data can skew and mislead the training process of machine learning algorithms resulting in longer training times, less accurate model and ultimately a porrer results.
+
+##Types of outliers
+1.Univariate Outliers: Are the points which are beyond the normal values in a single variable. Outliers in a single variable are called univariate outliers
+
+2.Bivariate Outliers: Are those the points which lie far from the expected values when two variables are plotted against each other.

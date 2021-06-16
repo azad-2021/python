@@ -1,0 +1,27 @@
+Types of machine learning:
+
+		1.Supervised Learning: supervised learning is a learning technique where we have input vgariables and an
+		output varaibles and we use an algorithm to learn the mapping function from the input to the output.
+
+		Supervised learning techniques are composed of complex algorithms and are divided into Classification and
+		regression models.
+		Classification models are used for problems where the output variables are "yes" or "No" or "Pass" or "Fail".
+
+		Regressing model is used where the output variables is real value such as Number, price, pressure, weight etc. Some of the familier algorithms include linear regression, polynomial regression etc.
+
+		2.Unsupervised learning: Unsupervised learning is where we only have input data and no corresponding output variables.
+		The goal of unsupervised learning is to model the underlying structure or distribution in the data in
+		order to learn more about data.
+
+		In unsupervised learning technique, the model learns by inferences from datasets consisting of output data 
+		without labelled responses.
+		The most common unsupervised learning method is cluster analysis, which is used for exploratory data
+		analysis to find hidden patterns or grouping in data.
+
+Classification Models: In classification, the algorithms attempt to learn the properties of diffrernt categories
+present in the dataset.
+
+Regression Model: Regression algorithms attempt to estimate the mapping function from the input variables to numerical or continuous variables.
+In this case, y is a real value, which can be an integer or a floating-point value.
+Therefore, regression prediction problems are usually quantities or sizes.
+For example, when provided with a dataset about houses, and we are asked about to predict their prices, that is a regression task because the price will be a continuous output.

@@ -1,0 +1,49 @@
+Encoding data means converting categorical data into numerical data.
+Types of Encoding Techniques
+
+-Label Encoding
+-Feature Encoding
+-One Hot Encoding
+-Binary Encoding
+-BaseN Encoding
+-Target Encoding
+
+1.Label Encoding: Each category is assigned a value 1 through N
+				  where N is the number of categories in the column
+				  Example:
+				  sate			label encoding
+				  Goa			1
+				  Gujrat		2
+				  Punjab		3
+
+2.Feature Mapping: Feature mapping is a function which maps a data vector to a feature space.
+				   It is used in case of ordinal variables..
+				   Example: Size			Feature Encoding
+
+				   			Low				1
+				   			High				3
+				   			Medium				2
+
+3.One Hot Encoding: We map each category to a vector that contains 1 or 0. The number of vectors depend upon the number of categories.
+					Example:
+					color				Red		Yellow		Green
+					Red 				 1		  0			  0
+					Red					 1		  0			  0
+					Yellow				 0		  1			  0
+					Green				 0		  0			  1
+
+
+4.Binary Encodin: It converts a category into binary digits. Each binary digit creates one feature column.
+If there are one unique categories, then binary encoding results log base2 to power n features.
+
+5.BaseN Encoding: Generalising the value of N in log base N, we get BaseN encoding.
+When our Base is 1, it is One Hot Encoding.
+When the base is 2, It is binary Encoding.
+If we want higher base, we can use BaseN Encoding, which can be used for columns where we have huge number of distinct values.
+
+6.Target Encoding: Process of replacing a categorical value with any of the aggregation of the target variable.
+					Example: Color		Target							Encoding		Target
+							 Red		   1							  1.00			  1
+							 Green		   0 							  0.5			  0
+							 blue		   0  							  0.5			  0
+							 Red		   1 							  1.00			  1
